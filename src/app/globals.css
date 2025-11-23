@@ -28,3 +28,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.numbered-heading {
+  @apply mb-6 flex items-center text-sm font-mono uppercase tracking-[0.2em] text-emerald-400;
+}
+
+.numbered-heading span {
+  @apply mr-3 text-xs text-slate-500;
+}
